@@ -1,0 +1,1 @@
+This is a personal practice project of web design using javascript, css and html

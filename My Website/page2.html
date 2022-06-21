@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- meta tags live in head section -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Website design template/tutorial pg2">
+    <meta name="author" content="Misaka Rin">
+    <meta name="keywords" content="html, css, javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>My Website pg2</title>
+
+    <head>
+        <h1>This is page 2</h1>
+        
+        <meta name="description" content="my descriptiopn">
+
+        <!-- basic tags stars here -->
+        <body>
+            
+            <h2>Videos</h2>
+            <a href="index.html">back to index</a>
+            
+            <!-- putting video file on website
+                'controls' allows video control
+                'poster' adds a thumbnail to the video 
+                'autoplay' allows autoplay when the website is loaded
+                'loop' allows video to auto loop when it ends-->
+            <br>
+            <video src="2269037052707149903.mp4" width="400" controls poster="X_992V$U`VDJ33)PU_`33PT.png">text if video failed to load up</video>
+            <br>
+            <p>Youtbe Videos</p>
+            <!-- youtbe video can be put on website using share-embed  -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+            
+        </body>
+        <br>
+        <hr>
+
+        <body>
+            <!-- lists -->
+            <h2>Lists</h2>
+            <p>unordered lists</p>
+            <!-- unordered list -->
+            <ul>
+                <!-- list items -->
+                <li>apple</li>
+                <li>orange</li>
+                <li>banana</li>
+            </ul>
+
+            <p>ordered lists</p>
+            <!-- ordered list (type is optional)-->
+            <ol type="A">
+                <li>apple
+                    <!-- ol can also be embed -->
+                    <ol type="i">
+                        <li>apple</li>
+                        <li>orange</li>
+                        <li>banana</li>
+                    </ol>
+                </li>
+                <li>orange</li>
+                <li>banana</li>
+            </ol>
+
+            <p>description lists</p>
+            <!-- description lists -->
+            <dl>
+                <!-- description terms -->
+                <dt>apple</dt>
+                <!-- description -->
+                <dd>- they are red</dd>
+
+                <dt>orange</dt>
+                <dd>- they are orange</dd>
+
+                <dt>banana</dt>
+            </dl>
+            <br>
+            <hr>
+
+            <!-- tables -->
+            <h2>Tables</h2>
+            <table>
+                <!-- table head -->
+                <thead>
+                    <!-- table title -->
+                    <caption>Caption</caption>
+                    <tr>
+                        <!-- table header -->
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <th>Column 3</th>
+                    </tr>
+                </thead>
+                <!-- table body -->
+                <tbody>
+                    <!-- table row -->
+                    <tr>
+                        <!-- table data -->
+                        <td>one</td>
+                        <td>two</td>
+                        <td>three</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <!-- table data with column span-->
+                        <td colspan="2">1234567890123</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+            <hr> 
+            <!-- containers 
+                group html sections together
+                so css can apply attributes to all of them
+            
+                block tags takes up space they needed(ex:links)
+                inline tags takes up any space on the current row(ex:paragraphs)-->
+            <h2>Containers</h2>
+
+            <!-- division (block container)-->
+            <div>div1</div>
+            <div>div2</div>
+            <!-- span (inline container)-->
+            <span>span1</span>
+            <span>span2</span>
+
+            <br>
+            <hr> 
+            <!-- inputs 
+                get user input and pass it to javascript for processing
+                'value' sets the default value-->
+            <h2>Inputs</h2>
+            <input type="text" value="put texts here">
+            <br>
+            <input type="password">
+            <br>
+            <!-- text area 
+                allows massive input-->
+            <textarea rows="20" cols="100">
+                enter your paragraph
+            </textarea>
+            <!-- more input types -->
+            <input type="date">
+            <input type="email">
+            <input type="range">
+            <input type="file">
+            <br>
+            <input name= "multiple at a time possible" type="checkbox">
+            <input name= "multiple at a time possible" type="checkbox">
+            <br>
+            <input name= "one at a time only" type="radio">
+            <input name= "one at a time only" type="radio">
+            <br>
+            <!-- 'form' wraps input for sending data to other langs -->
+            <form>
+                <input type="submit">
+            </form>
+            
+            <br>
+            <hr> 
+            <h2>iFrame</h2>
+            <!-- embed other websites  
+                large websites like amazon/google usually prevent ppl from doing this:( -->
+            <iframe src="https://dyson-calculator.com/" frameboarder="0" width="800" height="800">
+                this text will be displayed if the website is inaccessible
+            </iframe>
+
+            
+        </body>
+
+    </head>
+
+
+</html>
